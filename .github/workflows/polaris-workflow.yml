@@ -45,6 +45,9 @@ jobs:
           polaris_reports_sarif_create: true  # Create SARIF report and upload it as artifact
           polaris_upload_sarif_report: true  # Upload SARIF report in GitHub Advanced Security tab
 
+          coverity_build_command: mvn -B -DskipTests package
+          coverity_clean_command: mvn -B clean
+          include_diagnostics: false
 
           ### SCAN CONFIGURATION: Uncomment below to enable
           # polaris_waitForScan: true # Wait for scan completion before proceeding
