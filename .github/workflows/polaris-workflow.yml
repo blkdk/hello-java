@@ -55,6 +55,9 @@ jobs:
           coverity_clean_command: mvn -B clean
           include_diagnostics: false
 
+          ### Signature scan
+          polaris_test_sca_type: 'SCA-SIGNATURE'
+
           ### SCAN CONFIGURATION: Uncomment below to enable
           # polaris_waitForScan: true # Wait for scan completion before proceeding
 
