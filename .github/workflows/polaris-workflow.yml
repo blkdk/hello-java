@@ -57,6 +57,7 @@ jobs:
 
           ### Signature scan
           polaris_test_sca_type: 'SCA-SIGNATURE'
+          detect_args: '--detect.required.detector.types=MAVEN --detect.accuracy.required=NONE --detect.blackduck.scan.mode=INTELLIGENT'
 
           ### SCAN CONFIGURATION: Uncomment below to enable
           # polaris_waitForScan: true # Wait for scan completion before proceeding
