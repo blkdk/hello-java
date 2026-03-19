@@ -44,7 +44,7 @@ jobs:
           #polaris_project_name: ${{github.repository}}
 
           polaris_application_name: 'blkdk'
-          polaris_branch_name: 'main'
+          polaris_branch_name: 'dev'
           polaris_project_name: 'hello-java'
           
           ### SCANNING: Required fields
